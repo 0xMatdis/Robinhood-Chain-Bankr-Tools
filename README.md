@@ -4,69 +4,71 @@
 
 # Robinhood Chain × Bankr Tools
 
-**The Ultimate Open-Source Toolkit for Bankr AI Agents on Robinhood Chain**
+**Professional open-source toolkit for Bankr AI Agents on Robinhood Chain**
 
 ![GitHub stars](https://img.shields.io/github/stars/0xMatdis/Robinhood-Chain-Bankr-Tools?style=for-the-badge&logo=github)
 ![License](https://img.shields.io/github/license/0xMatdis/Robinhood-Chain-Bankr-Tools?style=for-the-badge)
 ![Bankr](https://img.shields.io/badge/Bankr-Compatible-00D4FF?style=for-the-badge&logo=robot)
 ![Robinhood Chain](https://img.shields.io/badge/Robinhood_Chain-Enabled-000000?style=for-the-badge&logo=ethereum)
-![Version](https://img.shields.io/badge/Version-0.1.0-1E90FF?style=for-the-badge)
-![Maintenance](https://img.shields.io/badge/Maintained-Yes-00C853?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-0.1.0-blue?style=for-the-badge)
 
-**A comprehensive, production-ready collection of skills that empowers AI agents to intelligently manage tokenized stocks, execute cross-chain operations, scan market opportunities, optimize yield, and capitalize on earnings events on Robinhood Chain.**
+**A comprehensive collection of production-ready skills that enable AI agents to manage tokenized stocks, bridge assets, scan opportunities, optimize yield, and execute earnings strategies on Robinhood Chain.**
 
 </div>
 
-## ✨ Project Overview
+## ✨ Available Skills
 
-Robinhood Chain × Bankr Tools is an open-source initiative designed to bridge the power of **Bankr AI Agents** with the **Robinhood Chain** ecosystem. 
-
-This toolkit provides ready-to-use skills that allow agents to perform complex financial operations using natural language — making on-chain trading, portfolio management, and automation more accessible and powerful than ever.
-
-## 🛠️ Core Skills
-
-| Skill Name                  | Description                                                                 | Key Features                                      | Use Case                              | Status |
-|-----------------------------|-----------------------------------------------------------------------------|---------------------------------------------------|---------------------------------------|--------|
-| `rh-portfolio-manager`      | Intelligent portfolio rebalancing, DCA, and risk management                 | Auto-rebalance, DCA, PnL analysis, correlation   | Long-term automated investing         | ✅ Ready |
-| `rh-bridge-pro`             | Advanced LayerZero bridge with automatic liquidity seeding                  | OFT bridging, liquidity auto-seeding, status tracking | Cross-chain expansion & token launch  | ✅ Ready |
-| `rh-stock-scanner`          | Real-time momentum, volume, correlation & opportunity scanner               | Momentum detection, volume spike, correlation     | Market research & alpha generation    | ✅ Ready |
-| `rh-yield-optimizer`        | Smart yield strategies using tokenized stocks as collateral                 | Yield aggregation, auto-compound, risk-adjusted   | Maximizing APY on RWAs                | ✅ Ready |
-| `rh-earnings-agent`         | Automated pre & post-earnings strategies and volatility plays               | Earnings calendar, sentiment, entry/exit logic    | Earnings season trading               | ✅ Ready |
+| Skill Name                  | Description                                                      | Primary Use Case                          | Status |
+|-----------------------------|------------------------------------------------------------------|-------------------------------------------|--------|
+| `rh-portfolio-manager`      | Intelligent portfolio rebalancing, DCA & risk management         | Automated investing & risk control        | ✅ Ready |
+| `rh-bridge-pro`             | Advanced LayerZero bridge with liquidity seeding                 | Cross-chain expansion                     | ✅ Ready |
+| `rh-stock-scanner`          | Real-time momentum, volume & opportunity scanner                 | Market research & alpha hunting           | ✅ Ready |
+| `rh-yield-optimizer`        | Yield optimization using tokenized stocks as collateral          | Maximizing APY on RWAs                    | ✅ Ready |
+| `rh-earnings-agent`         | Automated earnings plays & volatility strategies                 | Earnings season trading                   | ✅ Ready |
 
 ## 🚀 Quick Start
 
-1. Open your **Bankr Agent** (X, Telegram, or Web)
-2. Install skills with one command:
+Install any skill directly in your Bankr agent:
 
 ```text
 install the rh-portfolio-manager skill from https://github.com/0xMatdis/Robinhood-Chain-Bankr-Tools/tree/main/skills/rh-portfolio-manager
 ```
 
-Repeat the command for any other skill.
+## 📸 Screenshots
 
-## 📚 Complete Documentation
+> **Note:** Screenshots will be added soon. Below are example use cases.
 
-- **[User Guide](docs/GUIDE.md)** — Installation, usage & best practices
-- **[Usage Examples](examples/USAGE_EXAMPLES.md)** — Powerful ready-to-use prompts
-- **[Skill Template](docs/SKILL_TEMPLATE.md)** — Create new skills easily
-- **[Roadmap](ROADMAP.md)** — Future development plans
-- **[Changelog](CHANGELOG.md)** — Version history
-- **[Contributing](CONTRIBUTING.md)** — How to contribute
+| Portfolio Rebalancing | Bridge with Liquidity |
+|-----------------------|-----------------------|
+| ![Portfolio Manager](https://via.placeholder.com/700x350?text=Portfolio+Rebalance+Example) | ![Bridge Pro](https://via.placeholder.com/700x350?text=Bridge+with+Liquidity+Seeding) |
+
+| Stock Scanner | Yield Optimizer |
+|---------------|-----------------|
+| ![Stock Scanner](https://via.placeholder.com/700x350?text=Stock+Scanner+Results) | ![Yield Optimizer](https://via.placeholder.com/700x350?text=Yield+Optimization) |
+
+## 📚 Documentation
+
+| Document | Description |
+|---------|-------------|
+| [User Guide](docs/GUIDE.md) | Installation and usage instructions |
+| [Usage Examples](examples/USAGE_EXAMPLES.md) | Ready-to-use prompts |
+| [Skill Template](docs/SKILL_TEMPLATE.md) | Create your own skills |
+| [Roadmap](ROADMAP.md) | Future development plans |
+| [Changelog](CHANGELOG.md) | Version history |
 
 ## Tech Stack
 
-- **Agent Framework**: Bankr Skills Runtime
-- **Blockchain**: Robinhood Chain (EVM) + Base
-- **Bridging**: LayerZero OFT Standard
-- **Data**: Chainlink Oracles
-- **License**: MIT (Fully Open Source)
+- **Framework**: Bankr Skills
+- **Blockchain**: Robinhood Chain + Base
+- **Bridging**: LayerZero OFT
+- **Oracles**: Chainlink
+- **License**: MIT
 
 ---
 
-**Built with passion for the Bankr and Robinhood Chain community.**
+**Built with ❤️ for the Bankr & Robinhood Chain community**
 
 By [0xMatdis](https://x.com/0xmatdis)
 
-Contributions, feedback, feature requests, and new skills are highly appreciated!
-
----
+Contributions, feedback, and new skill ideas are highly welcome!
+```
