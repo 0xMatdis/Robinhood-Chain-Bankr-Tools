@@ -1,34 +1,25 @@
 # Contributing to Robinhood Chain × Bankr Tools
 
-Thank you for your interest in contributing to this project! We welcome contributions from the community.
+Thank you for your interest in contributing to this project!  
+We welcome contributions from developers, builders, and the Bankr community.
 
 ## How to Contribute
 
-### 1. Adding a New Skill
+### 1. Adding a New Skill (Most Common)
 
 1. Fork the repository
-2. Create a new folder in `skills/your-skill-name/`
-3. Create a `SKILL.md` file following this structure:
-
-```yaml
----
-name: your-skill-name
-version: 0.1.0
-description: Short description of the skill
-author: Your GitHub username
-tags: [tag1, tag2, robinhood-chain, bankr]
----
-```
-
-4. Fill in the sections: Commands, Capabilities, and Example Usage
-5. Commit your changes and open a Pull Request
+2. Create a new folder inside `skills/` with your skill name (`your-skill-name`)
+3. Copy the [Skill Template](docs/SKILL_TEMPLATE.md) and rename it to `SKILL.md`
+4. Fill in all sections properly
+5. Test your skill in Bankr agent
+6. Commit your changes and open a Pull Request
 
 ### 2. Improving Existing Skills
 
-- Enhance descriptions and documentation
-- Add new commands or capabilities
-- Improve example usage
-- Fix bugs or formatting issues
+- Enhance descriptions and commands
+- Add more powerful example prompts
+- Fix typos or improve formatting
+- Add new capabilities
 
 ### 3. Other Contributions
 
@@ -39,22 +30,35 @@ tags: [tag1, tag2, robinhood-chain, bankr]
 
 ## Pull Request Guidelines
 
-- Use clear and descriptive PR titles (e.g. `feat: add rh-new-skill`, `docs: update guide`)
+- Use clear and descriptive PR titles (e.g. `feat: add rh-new-awesome-skill`, `docs: improve GUIDE.md`)
 - Provide a detailed description of your changes
-- Ensure your `SKILL.md` follows the existing format
-- Keep changes focused and atomic
+- Ensure your `SKILL.md` follows the official template
+- Keep changes focused (one skill or one improvement per PR)
+- Test your skill before submitting
+
+## Development Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/0xMatdis/Robinhood-Chain-Bankr-Tools.git
+
+# Go to directory
+cd Robinhood-Chain-Bankr-Tools
+```
 
 ## Code of Conduct
 
-- Be respectful and inclusive
-- Focus on adding value to the Bankr and Robinhood Chain community
-- No spam, self-promotion, or low-effort contributions
+Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to keep our community welcoming and professional.
+
+## Questions?
+
+- Open an Issue with the label `question`
+- Reach out on X: [@0xMatdis](https://x.com/0xmatdis)
 
 ---
 
-We appreciate every contribution that helps make this toolkit more powerful for AI agents and builders.
-
-Questions? Feel free to open an Issue or reach out on X [@0xMatdis](https://x.com/0xmatdis).
+**Thank you for helping make this toolkit better for the entire Bankr & Robinhood Chain community!**  
+Together we can build powerful tools for AI agents.
 
 Happy building! 🛠️
 ```
