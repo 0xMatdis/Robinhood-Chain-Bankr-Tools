@@ -10,59 +10,50 @@
 ![License](https://img.shields.io/github/license/0xMatdis/Robinhood-Chain-Bankr-Tools?style=for-the-badge)
 ![Bankr](https://img.shields.io/badge/Bankr-Compatible-00D4FF?style=for-the-badge&logo=robot)
 ![Robinhood Chain](https://img.shields.io/badge/Robinhood_Chain-Enabled-000000?style=for-the-badge&logo=ethereum)
-![Version](https://img.shields.io/badge/Version-0.1.0-blue?style=for-the-badge)
 
-**A comprehensive collection of production-ready skills that enable AI agents to manage tokenized stocks, bridge assets, scan opportunities, optimize yield, and execute earnings strategies on Robinhood Chain.**
+**A comprehensive collection of production-ready skills that empower AI agents to manage tokenized stocks, bridge assets, scan opportunities, optimize yield, and execute earnings strategies.**
 
 </div>
 
-## ✨ Available Skills
+## 🛠️ Available Skills
 
-| Skill Name                  | Description                                                      | Primary Use Case                          | Status |
-|-----------------------------|------------------------------------------------------------------|-------------------------------------------|--------|
-| `rh-portfolio-manager`      | Intelligent portfolio rebalancing, DCA & risk management         | Automated investing & risk control        | ✅ Ready |
-| `rh-bridge-pro`             | Advanced LayerZero bridge with liquidity seeding                 | Cross-chain expansion                     | ✅ Ready |
-| `rh-stock-scanner`          | Real-time momentum, volume & opportunity scanner                 | Market research & alpha hunting           | ✅ Ready |
-| `rh-yield-optimizer`        | Yield optimization using tokenized stocks as collateral          | Maximizing APY on RWAs                    | ✅ Ready |
-| `rh-earnings-agent`         | Automated earnings plays & volatility strategies                 | Earnings season trading                   | ✅ Ready |
+| Skill Name                  | Description                                                      | Primary Use Case                     | Status |
+|-----------------------------|------------------------------------------------------------------|--------------------------------------|--------|
+| `rh-portfolio-manager`      | Intelligent portfolio rebalancing & DCA                          | Automated investing                  | ✅ Ready |
+| `rh-bridge-pro`             | Advanced LayerZero bridge + liquidity seeding                    | Cross-chain expansion                | ✅ Ready |
+| `rh-stock-scanner`          | Real-time momentum & opportunity scanner                         | Market research                      | ✅ Ready |
+| `rh-yield-optimizer`        | Yield optimization using tokenized stocks                        | Maximizing APY                       | ✅ Ready |
+| `rh-earnings-agent`         | Automated earnings plays & volatility strategies                 | Earnings season trading              | ✅ Ready |
+
+## 📸 Screenshots
+
+### Portfolio Manager
+![Portfolio Manager](https://i.imgur.com/NNsb3jD.jpeg)
+
+### Bridge Pro
+![Bridge Pro](https://i.imgur.com/ROfvfAM.jpeg)
+
+### Stock Scanner
+![Stock Scanner](https://i.imgur.com/sljjzlp.jpeg)
+
+### Yield Optimizer
+![Yield Optimizer](https://i.imgur.com/GL3Ct7L.jpeg)
 
 ## 🚀 Quick Start
 
-Install any skill directly in your Bankr agent:
+Install skills in your Bankr agent:
 
 ```text
 install the rh-portfolio-manager skill from https://github.com/0xMatdis/Robinhood-Chain-Bankr-Tools/tree/main/skills/rh-portfolio-manager
 ```
 
-## 📸 Screenshots
-
-> **Note:** Screenshots will be added soon. Below are example use cases.
-
-| Portfolio Rebalancing | Bridge with Liquidity |
-|-----------------------|-----------------------|
-| ![Portfolio Manager](https://via.placeholder.com/700x350?text=Portfolio+Rebalance+Example) | ![Bridge Pro](https://via.placeholder.com/700x350?text=Bridge+with+Liquidity+Seeding) |
-
-| Stock Scanner | Yield Optimizer |
-|---------------|-----------------|
-| ![Stock Scanner](https://via.placeholder.com/700x350?text=Stock+Scanner+Results) | ![Yield Optimizer](https://via.placeholder.com/700x350?text=Yield+Optimization) |
-
 ## 📚 Documentation
 
-| Document | Description |
-|---------|-------------|
-| [User Guide](docs/GUIDE.md) | Installation and usage instructions |
-| [Usage Examples](examples/USAGE_EXAMPLES.md) | Ready-to-use prompts |
-| [Skill Template](docs/SKILL_TEMPLATE.md) | Create your own skills |
-| [Roadmap](ROADMAP.md) | Future development plans |
-| [Changelog](CHANGELOG.md) | Version history |
-
-## Tech Stack
-
-- **Framework**: Bankr Skills
-- **Blockchain**: Robinhood Chain + Base
-- **Bridging**: LayerZero OFT
-- **Oracles**: Chainlink
-- **License**: MIT
+- [User Guide](docs/GUIDE.md)
+- [Usage Examples](examples/USAGE_EXAMPLES.md)
+- [Skill Template](docs/SKILL_TEMPLATE.md)
+- [Roadmap](ROADMAP.md)
+- [Changelog](CHANGELOG.md)
 
 ---
 
@@ -70,5 +61,6 @@ install the rh-portfolio-manager skill from https://github.com/0xMatdis/Robinhoo
 
 By [0xMatdis](https://x.com/0xmatdis)
 
-Contributions, feedback, and new skill ideas are highly welcome!
+Contributions welcome!
+
 ```
