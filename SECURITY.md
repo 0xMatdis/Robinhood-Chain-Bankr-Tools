@@ -2,35 +2,54 @@
 
 ## Supported Versions
 
-| Version | Supported          |
-|---------|--------------------|
-| 0.1.x   | :white_check_mark: |
+| Version | Supported          | Security Updates |
+|---------|--------------------|------------------|
+| 0.2.x   | :white_check_mark: | Active           |
+| 0.1.x   | :white_check_mark: | Until Aug 2026   |
 
 ## Reporting a Vulnerability
 
-We take security seriously. If you discover a security vulnerability, please report it responsibly.
+We take the security of this project seriously. If you discover a security vulnerability, please report it responsibly.
 
-**Please do NOT create a public GitHub issue for security vulnerabilities.**
+**Please do not report security vulnerabilities through public GitHub issues.**
 
 ### How to Report
 
-Send a direct message to the maintainer on X:  
-**[@0xMatdis](https://x.com/0xmatdis)**
+Send a direct message to the project maintainer:
 
-Or open a **private** issue if possible.
+- **X / Twitter**: [@0xMatdis](https://x.com/0xmatdis)
 
-### What to Include in the Report
+Or open a **private vulnerability report** if GitHub allows it.
 
-- Description of the vulnerability
-- Steps to reproduce
-- Potential impact
-- Suggested fix (if any)
+### What to Include in Your Report
 
-## Response Time
+- Description of the vulnerability and its impact
+- Steps to reproduce the issue
+- Affected versions
+- Any suggested fixes or mitigations (if known)
+- Your contact information (optional)
 
-- We will acknowledge your report within 48 hours.
-- We aim to provide a fix or mitigation within 7-14 days depending on complexity.
+## Response Timeline
+
+- **Acknowledgment**: Within 48 hours
+- **Detailed Analysis**: Within 5 business days
+- **Fix Release**: We aim to release a fix within 14 days (depending on complexity)
+
+## Security Best Practices for Users
+
+- Always review transaction details in your Bankr agent before signing
+- Start with small amounts when testing new automations
+- Never share your private keys or seed phrases
+- Keep your skills updated to the latest version
+
+## Scope
+
+This security policy applies to the code in this repository. It does not cover:
+- Third-party services (Bankr, Robinhood Chain, LayerZero, etc.)
+- User configuration or wallet security
 
 ---
 
-Thank you for helping keep this project secure.
+Thank you for helping keep this project secure and trustworthy for the entire Bankr & Robinhood Chain community.
+
+Last updated: July 17, 2026
