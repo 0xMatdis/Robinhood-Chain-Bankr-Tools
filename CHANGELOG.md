@@ -2,52 +2,54 @@
 
 All notable changes to this project will be documented in this file.
 
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
 ## [Unreleased]
 
 ### Added
-- Skill template (`docs/SKILL_TEMPLATE.md`) for easier community contributions
-- Comprehensive usage examples (`examples/USAGE_EXAMPLES.md`)
-- Roadmap document (`ROADMAP.md`)
-- Full documentation suite (GUIDE.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, SECURITY.md)
+- Improved documentation for all skills with more detailed commands and examples
+- Enhanced `USAGE_EXAMPLES.md` with advanced multi-skill strategies
+- Professional `SKILL_TEMPLATE.md` for easier community contributions
+- Comprehensive `GUIDE.md` with FAQ and best practices
 
 ### Changed
-- Improved README.md with better skill table and structure
-- Updated repository description and topics
+- Updated all skill documentation to version 0.2.0 with richer content
+- Improved overall README structure and visual presentation
 
 ---
 
 ## [0.1.0] - 2026-07-17
 
 ### Added
-- **5 Core Skills**:
-  - `rh-portfolio-manager` - Intelligent portfolio rebalancer
-  - `rh-bridge-pro` - Advanced LayerZero bridge with liquidity
-  - `rh-stock-scanner` - Real-time momentum & opportunity scanner
-  - `rh-yield-optimizer` - Yield optimization using tokenized stocks
-  - `rh-earnings-agent` - Automated earnings play agent
+- **Core Skills** (5 total):
+  - `rh-portfolio-manager` — Intelligent portfolio rebalancing & DCA
+  - `rh-bridge-pro` — Advanced LayerZero bridge with liquidity seeding
+  - `rh-stock-scanner` — Real-time momentum and opportunity scanner
+  - `rh-yield-optimizer` — Yield optimization using tokenized stocks as collateral
+  - `rh-earnings-agent` — Automated earnings play & volatility strategies
 - Professional repository setup:
-  - Banner & modern README
-  - LICENSE (MIT)
-  - CONTRIBUTING.md
-  - CODE_OF_CONDUCT.md
-  - SECURITY.md
-  - .gitignore
-- Full documentation (`docs/GUIDE.md`)
-- Usage examples and skill template
+  - Modern README with banner and skill table
+  - Full documentation suite (`GUIDE.md`, `USAGE_EXAMPLES.md`, `SKILL_TEMPLATE.md`, `ROADMAP.md`)
+  - Standard open-source files (`LICENSE`, `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md`, `SECURITY.md`, `.gitignore`)
+- Initial release for Bankr AI Agents on Robinhood Chain
 
-### Initial Release
-First public version of the toolkit for Bankr AI Agents on Robinhood Chain.
+### Miscellaneous
+- Repository structure and branding
+- MIT License
 
 ---
 
-## Format
-
-This changelog follows the conventions of [Keep a Changelog](https://keepachangelog.com/).
-
 ## Types of Changes
-- `Added` - New features
-- `Changed` - Changes in existing functionality
-- `Deprecated` - Features that will be removed
-- `Removed` - Features that were removed
-- `Fixed` - Bug fixes
-- `Security` - Security improvements
+
+- `Added` — New features or skills
+- `Changed` — Changes in existing functionality
+- `Deprecated` — Features that will be removed in future releases
+- `Removed` — Features that were removed
+- `Fixed` — Bug fixes
+- `Security` — Security improvements
+
+---
+
+**For the latest changes, see the [Unreleased](#unreleased) section.**
+
+Built with ❤️ for the Bankr & Robinhood Chain community.
